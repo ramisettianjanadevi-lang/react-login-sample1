@@ -1,16 +1,34 @@
-# React + Vite
+# React Login Page with Sample Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
+This project is a simple login page developed using React and Vite. After entering a username and password, the user can navigate to a sample page.
 
-Currently, two official plugins are available:
+## Features
+- Login page with username and password fields
+- Input validation for empty fields
+- Navigation from Login Page to Sample Page
+- Sample page with a Logout button
+- Responsive design using CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- JavaScript
+- HTML
+- CSS
+- React Router
+- Vite
+- Git and GitHub
 
-## React Compiler
+## How to Run the Project
+1. Install Node.js.
+2. Clone or download this repository.
+3. Open the project folder in the terminal.
+4. Run `npm install`.
+5. Run `npm run dev`.
+6. Open the local URL shown in the terminal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Note
+This is a basic demonstration project. The login form checks whether both fields are filled in; it does not authenticate registered users.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Author
+Anjanadevi
