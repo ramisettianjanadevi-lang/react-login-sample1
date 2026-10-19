@@ -12,7 +12,7 @@ function Sample() {
   return (
     <div className="sample-page">
       <nav className="sample-navbar">
-        <h2>MyWebsite</h2>
+        <h2>KodeBlooms</h2>
         <button onClick={handleLogout}>Logout ↗</button>
       </nav>
 
@@ -22,7 +22,7 @@ function Sample() {
 
           <p className="welcome-label">LOGIN SUCCESSFUL</p>
 
-          <h1>Welcome to Sample Page!</h1>
+          <h1>Welcome to KodeBlooms!</h1>
 
           <p className="welcome-description">
             You have successfully logged in.
